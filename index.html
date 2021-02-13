@@ -1,12 +1,47 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--Version 1.0-->
         <title>Math Calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles-css.css" rel="stylesheet">
     </head>
     <body>
-        
+        <div class="basicOperationsContainer container toCenter">
+            <div class="centerer">
+                <h3 class="subtituleOperations text" id="sum1">Suma</h3>
+                <input type="number" class="toCenter toCenterVertical" id="input1suma">
+                <input type="number" class="toCenter toCenterVertical" id="input2suma">
+                <button type="submit" class="toCenter toCenterVertical" id="submitSuma">¡OPERATE!</button>
+            </div>
+            <div class="centerer">
+                <h3 class="subtituleOperations text" id="resta1">Resta</h3>
+                <input type="number" class="toCenter toCenterVertical" id="input1resta">
+                <input type="number" class="toCenter toCenterVertical" id="input2resta">
+                <button type="submit" class="toCenter toCenterVertical" id="submitResta">¡OPERATE!</button>
+            </div>
+            <div class="centerer">
+                <h3 class="subtituleOperations text" id="div1">División</h3>
+                <input type="number" class="toCenter toCenterVertical" id="input1div">
+                <input type="number" class="toCenter toCenterVertical" id="input2div">
+                <button type="submit" class="toCenter toCenterVertical" id="submitDiv">¡OPERATE!</button>
+            </div>
+            <div class="centerer">
+                <h3 class="subtituleOperations text" id="mult1">Multiplicación</h3>
+                <input type="number" class="toCenter toCenterVertical" id="input1mult">
+                <input type="number" class="toCenter toCenterVertical" id="input2mult">
+                <button type="submit" class="toCenter toCenterVertical" id="submitMult">¡OPERATE!</button>
+            </div>
+            <div class="centerer">
+                <button class="toCenter toCenterVertical" id="clearButtons">Clear Buttons</button>
+            </div>
+        </div>
+        <div class="container toCenter advancedOperationsContainer" id="advancedOperationsContainerId">
+            <p>hola</p>
+        </div>
     </body>
+    <script src="suma.js"></script>
+    <script src="main.js"></script>
 </html>

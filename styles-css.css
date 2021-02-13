@@ -1,0 +1,48 @@
+/*Version 1.0*/
+
+.centerer{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: center;
+    background-color: rgb(190, 255, 0);
+    padding: 5px;
+    margin: 7px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px grey;
+}
+.centerer:nth-child(5){
+    grid-template-columns: none;
+}
+.toCenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+.toCenterVertical{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.basicOperationsContainer{
+    background-color: rgb(145, 255, 0);
+}
+.advancedOperationsContainer{
+    background-color: red;
+}
+.container{
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+input{
+    height: 2em;
+    border-radius: 7px;
+    outline: none;
+    
+}
+button{
+    height: 2em;
+    width: 7em;
+    outline: none;
+}
+button, #clearButtons{
+    height: 3em;
+}
